@@ -28,7 +28,7 @@
 
 			if ( $description || is_customize_preview() ) :
 				?>
-				<p class="site-description"> notre site pour le projet a faire <?php echo $description; ?></p>
+				<p class="site-description"> notre site pour le projet a faire ulysse a dit que j'étais une salope <?php echo $description; ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding-text -->
 
