@@ -13,12 +13,13 @@
 	<div class="wrap">
 
 		<?php the_custom_logo(); ?>
-
+		<h1> ON TEST SI CEST BON MDRRR </h1>
 		<div class="site-branding-text">
 			<?php if ( is_front_page() ) : ?>
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">coucou <?php bloginfo( 'name' ); ?></a></h1>
 			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"> salut la team  <?php bloginfo( 'name' ); ?></a></p>
+			
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"> salut   <?php bloginfo( 'name' ); ?></a></p>
 			<?php endif; ?>
 			
 
