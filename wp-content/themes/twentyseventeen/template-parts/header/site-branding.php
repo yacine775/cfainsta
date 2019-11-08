@@ -11,14 +11,14 @@
 ?>
 <div class="site-branding">
 	<div class="wrap">
-
+		<h1> test </h1>
 		<?php the_custom_logo(); ?>
 
 		<div class="site-branding-text">
 			<?php if ( is_front_page() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="toze"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">toto</a></h1>
 			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="tizeee"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">titi</a></p>
 			<?php endif; ?>
 
 			<?php
@@ -26,7 +26,7 @@
 
 			if ( $description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $description; ?></p>
+				<p class="tuze"><?php echo $description; ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding-text -->
 

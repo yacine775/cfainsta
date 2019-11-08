@@ -20,11 +20,11 @@ get_header(); ?>
 <div class="wrap">
 	<?php if ( is_home() && ! is_front_page() ) : ?>
 		<header class="page-header">
-			<h1 class="page-title"><?php single_post_title(); ?></h1>
+			<h1 class="tize"><?php single_post_title(); ?></h1>
 		</header>
 	<?php else : ?>
 	<header class="page-header">
-		<h2 class="page-title"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
+		<h2 class="toze"><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
 	</header>
 	<?php endif; ?>
 
